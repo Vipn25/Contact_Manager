@@ -1,0 +1,24 @@
+body {
+  background-color: turquoise;
+}
+.box {
+  background-color: white;
+  width: 600px;
+  margin: 5px auto;
+  padding: 10px 50px 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 400px;
+    transform: scale(0.9, 0.9);
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .box {
+    width: 350px;
+    transform: scale(0.85, 0.85);
+  }
+}

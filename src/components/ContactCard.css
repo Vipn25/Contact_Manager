@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: gray solid 1px;
+}
+.sub-container {
+  display: flex;
+}
+.sub-container img {
+  width: 60px;
+  height: 60px;
+  padding-top: 5px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 5px;
+}
+.username {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.usermail {
+  color: rgb(54, 54, 54);
+  padding-top: 0;
+}
+.iconbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.iconbox:hover {
+  cursor: pointer;
+}
